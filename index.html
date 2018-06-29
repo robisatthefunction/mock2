@@ -53,6 +53,14 @@
 		$('.loading').text('');
 	});
 
+	window.optimizely.push({
+		"type": "page",
+		"pageName": "boughtTree",
+		"tags": {
+			"revenue": 4000
+		}
+	})
+
 /*
 	var optlyState = window.optimizely.get('state');
 
